@@ -19,7 +19,7 @@ public class BallController : MonoBehaviour
         inputManager.OnSpacePressed.AddListener(LaunchBall);
         transform.parent = ballAnchor;
         transform.localPosition = Vector3.zero;
-      //  ballRB.isKinematic = true;
+        ballRB.isKinematic = true;
     }
 
     private void LaunchBall()
@@ -27,7 +27,7 @@ public class BallController : MonoBehaviour
         if (isBallLaunched) return;
         isBallLaunched = true;
         transform.parent = null;
-       // ballRB.isKinematic = false;
+        ballRB.isKinematic = false;
         ballRB.AddForce(transform.forward * force, ForceMode.Impulse);
     }
 
