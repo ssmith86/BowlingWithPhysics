@@ -109,10 +109,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.19446747
+  m_Radius: 0.2944756
   m_Height: 1.3868983
   m_Direction: 1
-  m_Center: {x: -0.01232779, y: 0.23414707, z: 0.022481993}
+  m_Center: {x: -0.029334933, y: 0.23414707, z: 0.0091076195}
 --- !u!54 &8337673122884000741
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -151,7 +151,6 @@ GameObject:
   - component: {fileID: 7917328808438571021}
   - component: {fileID: 2648948315850924623}
   - component: {fileID: 9150752800698740728}
-  - component: {fileID: 2037422560562016300}
   m_Layer: 0
   m_Name: FallTrigger
   m_TagString: Untagged
@@ -203,22 +202,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5229822763023569232}
   m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a01db25d65654b44a39b1c8a57a7e3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnPinFall:
-    m_PersistentCalls:
-      m_Calls: []
-  isPinFallen: 0
---- !u!114 &2037422560562016300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5229822763023569232}
-  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a01db25d65654b44a39b1c8a57a7e3f, type: 3}
   m_Name: 
