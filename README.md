@@ -3,7 +3,7 @@
 Video Link: https://youtu.be/bDabfs1xyt8
 
 
-/<h2> Asset Attributions: </h2<
+/<h2> Asset Attributions: </h2>
 /<p> bowling pins: Bowling pin by Poly by Google [CC-BY] via Poly Pizza
 Alien character: Alien by Polygonal Mind via Poly Pizza
 Arrow: Arrow2 by Bharadwaj B [CC-BY] via Poly Pizza
